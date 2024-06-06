@@ -1,0 +1,96 @@
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 222px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+    word-break: break-all;
+  }
+  
+  .card-body {
+    margin-top: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+  }
+  
+  .card-stat {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  
+  .card-stat i {
+    margin-right: 4px;
+  }
+  
+  .card-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 8px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-footer i {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .card-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-footer button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-footer i.fa-plus {
+    font-size: 1rem;
+  }
+  
